@@ -8,6 +8,7 @@ import Footer from '../component/footer'
 import '../styles/milad6.css'
 import Gallery from '../component/gallery'
 import Countdown from '../component/countdown'
+import Sponsor from '../component/sponsor'
 // import Countdown from '../component/countdown'
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
             <Lomba />
             <Gallery />
             <FAQ />
+            <Sponsor />
             <Footer />
             {/* <Countdown /> */}
         </>

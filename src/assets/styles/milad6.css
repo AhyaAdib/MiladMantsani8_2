@@ -656,13 +656,13 @@ section.about {
 }
 
 .card .content .titleLomba {
-color: rgb(249, 167, 43);
-text-align: center;
-filter: drop-shadow(0 7px 10px #000);
-font-size: xx-large;
-font-family: 'Fredoka' !important;
-font-weight: 800;
-margin-bottom: -5px;
+    color: rgb(249, 167, 43);
+    text-align: center;
+    filter: drop-shadow(0 7px 10px #000);
+    font-size: xx-large;
+    font-family: 'Fredoka' !important;
+    font-weight: 800;
+    margin-bottom: -5px;
 }
 
 .card .content .contentLombaPrev {
@@ -708,7 +708,7 @@ summary {
     list-style: none;
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 summary::-webkit-details-marker {
@@ -740,7 +740,7 @@ details[open] div {
     /* align-items: center; */
     min-height: 20vh;
     border-top: 1px;
-
+    
 }
 .columnMedia{
     display: flex;
@@ -793,58 +793,58 @@ details[open] div {
     max-width: 15vw;
     margin-right: 0;
     padding-right: 2vw;
-}
-.contactSection {
-    margin-left: 0;
-} */
+    }
+    .contactSection {
+        margin-left: 0;
+        } */
+        
+        .quickLinks ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 10px 0 10px;
+            max-width: 5vw;
+        }
 
-.quickLinks ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 10px 0 10px;
-    max-width: 5vw;
-}
-
-.quickLinks ul li {
-    margin-bottom: 5px;
-}
-
-.quickLinks ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.quickLinks ul li a:hover {
-    text-decoration: underline;
-    transition: all .2s;
-    color: #000;
-}
-
-.mediaIcon {
-    position: relative;
-    align-items: center;
-}
-
-.ilist a i{
-    position: relative;
-    align-items: center;
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
-} 
-
-.ilist a i p{
-    margin-left: 5px;
-    font-size: 1rem;
-}
-
-.googleMaps {
-    /* max-width: 75vw; */
-    margin: 20px;
-    text-align: center;
-}
+        .quickLinks ul li {
+            margin-bottom: 5px;
+        }
+        
+        .quickLinks ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .quickLinks ul li a:hover {
+            text-decoration: underline;
+            transition: all .2s;
+            color: #000;
+        }
+        
+        .mediaIcon {
+            position: relative;
+            align-items: center;
+        }
+        
+        .ilist a i{
+            position: relative;
+            align-items: center;
+            align-self: center;
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+        } 
+        
+        .ilist a i p{
+            margin-left: 5px;
+            font-size: 1rem;
+        }
+        
+        .googleMaps {
+            /* max-width: 75vw; */
+            margin: 20px;
+            text-align: center;
+        }
 
 .googleMaps iframe {
     height: 30vh;
@@ -876,7 +876,7 @@ details[open] div {
 }
 
 @media (max-width: 930px) {
-
+    
     .titleOuter {
         display: flex;
     }
@@ -896,7 +896,7 @@ details[open] div {
         transform: translateX(-166px);
         transform: translateY(-166px);
     }
-
+    
     header,
     header.sticky {
         padding: 10px 20px;
@@ -922,7 +922,7 @@ details[open] div {
         transition: 1s;
         background: linear-gradient(45deg, #5F2A7F, #754b85);
     }
-
+    
     header .navigation li {
         margin-left: 0;
         margin: 2px 0px;
@@ -943,14 +943,14 @@ details[open] div {
         background-position: center;
         cursor: pointer;
     }
-
+    
     .menuToggle.active, .tombolMenu.active {
         background: url(/assets/img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
     }
-
+    
     header.sticky .menuToggle,header.sticky .tombolMenu{
         filter: invert(1);
     }
@@ -959,7 +959,7 @@ details[open] div {
         display: flex;
         flex-direction: column;
     }
-
+    
     .bannerContainer .img {
         position: relative;
         /* left: 50%;
@@ -974,7 +974,7 @@ details[open] div {
         text-align: center;
         justify-content: center;
     }
-
+    
     .containerPrev p {
         margin-bottom: 10px;
         text-align: center;
@@ -999,27 +999,27 @@ details[open] div {
         color: black;
         background-color: white;
     }
-
+    
     section {
         padding: 10px;
     }
-
+    
     section.about {
         padding: 0;
     }
-
+    
     .row {
         display: flex;
         flex-direction: column;
     }
-
+    
     .row .what {
         font-size: 1em;
         position: relative;
         width: 90%;
         margin-top: 0;
     }
-
+    
     .titleText span {
         font-size: 1em;
     }
@@ -1027,7 +1027,7 @@ details[open] div {
     p {
         color: white;
     }
-
+    
     .row .what .pamflet {
         position: relative;
         /* width: 210px;
@@ -1041,7 +1041,7 @@ details[open] div {
         text-justify:inter-cluster;
         font-size: 1;
     }
-
+    
     .row .what .pamflet img {
         position: relative;
         width: 90%;
@@ -1054,7 +1054,7 @@ details[open] div {
         transform: scale(1); 
     }
     
-        
+    
     .titleText {
         margin-top: 30px;
     }
@@ -1067,7 +1067,7 @@ details[open] div {
         margin-left: 9px;
         font-size: 1.8rem;
     }
-
+    
     
     .row .aboutComp {
         display: flex;
@@ -1075,52 +1075,52 @@ details[open] div {
     }
     
     .row .aboutComp:nth-of-type(2n){
-    
+        
         display: flex;
         flex-direction: column;
     }
     /* .row .what1 {
         position: relative;
         width: 80%;
-    }
-
-    .row .what .pamflet {
-        height: 300px;
-        margin-top: 20px;
-        max-width: 110%;
-        margin-right: 0;
-    } */
-
-    .title {
-        text-align: center;
-    }
-
-    .titleText {
-        font-size: 1em;
-        line-height: 1em;
-        margin-bottom: 15px;
-        font-weight: 300;
-    }
-
-
-    .ket {
-        display: inline-block;
-        text-decoration: none;
-        visibility: visible;
-        display: inline-block;
-        font-size: 0.5em;
-        text-decoration: none;
-        margin-top: 10%;
-        place-items: center;
-    }
-
-    .ket1 {
-        display: inline-block;
-        text-decoration: none;
-    }
-
-
-    .container {
+        }
+        
+        .row .what .pamflet {
+            height: 300px;
+            margin-top: 20px;
+            max-width: 110%;
+            margin-right: 0;
+            } */
+            
+            .title {
+                text-align: center;
+            }
+            
+            .titleText {
+                font-size: 1em;
+                line-height: 1em;
+                margin-bottom: 15px;
+                font-weight: 300;
+            }
+            
+            
+            .ket {
+                display: inline-block;
+                text-decoration: none;
+                visibility: visible;
+                display: inline-block;
+                font-size: 0.5em;
+                text-decoration: none;
+                margin-top: 10%;
+                place-items: center;
+            }
+            
+            .ket1 {
+                display: inline-block;
+                text-decoration: none;
+            }
+            
+            
+            .container {
         position: relative;
         display: flex;
         justify-content: center;
@@ -1131,7 +1131,7 @@ details[open] div {
         padding-left: 5%;
         flex-direction: column;
     }
-
+    
     .rightContainer {
         position: relative;
         display: flex;
@@ -1142,7 +1142,7 @@ details[open] div {
         margin-top: 15%;
         padding-left: 5%;
     }
-
+    
     .container .card {
         height: 180px;
         width: 180px;
@@ -1156,7 +1156,7 @@ details[open] div {
         transition: 0.3s ease-in-out;
         place-items: center;
     }
-
+    
     .rightContainer .card {
         height: 180px;
         width: 180px;
@@ -1170,40 +1170,40 @@ details[open] div {
         transition: 0.3s ease-in-out;
         place-items: center;
     }
-
+    
     .container .card .imgbox img {
         max-width: 160px;
-
+        
     }
-
+    
     .rightContainer .card .imgbox img {
         max-width: 160px;
     }
-
-
+    
+    
     .container .card .imgboxmo img {
         max-width: 150px;
         margin-left: 3px;
         margin-top: 3px
     }
-
+    
     .rightContainer .card .imgboxmedco img {
         max-width: 140px;
     }
-
+    
     .container .card .iqrama img {
         max-width: 140px;
     }
-
+    
     .container .card .mbc img {
         max-width: 140px;
         margin-left: 3px;
     }
-
+    
     #faq {
         padding: 10%;
     }
-
+    
     /* footer */
     .socialMedia .ulist .ilist a .fa-brands {
         font-size: 1.2em;
@@ -1234,10 +1234,10 @@ details[open] div {
         align-self: center;
         margin-bottom: 20px;
     }
-
-
-    .contactSection {
     
+    
+    .contactSection {
+        
         max-width: 35vw;
     }
     
@@ -1283,7 +1283,7 @@ details[open] div {
     .columnMedia img {
         width: 20vw;
     }
-
+    
     .ilist a i{
         position: relative;
         align-items: center;
@@ -1299,7 +1299,7 @@ details[open] div {
         font-size: 1rem;
         margin: 5px 4px;
     }
-
+    
     .googleMaps {
         /* max-width: 75vw; */
         margin: 0 5px 0 10px;
@@ -1314,15 +1314,78 @@ details[open] div {
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
-
+    
     .footerContent {
         flex-direction: column;
     }
-
+    
     .copyrightText {
         flex-direction: column;
     }
     .copyrightText p, .copyrightText span {
         margin-top: 0;
     }
+}
+
+
+
+.sponsor-section {
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #fff8f0, #ffe7cc);
+    text-align: center;
+}
+
+.sponsor-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #5a3200;
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.sponsor-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #333;
+}
+
+.sponsor-card:hover {
+    transform: translateY(-5px) scale(1.03);
+}
+
+.sponsor-card img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+#sponsorTitle {
+    color: #000;
+}
+#sponsorship {
+    background: linear-gradient(#754b85, #945aab);
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+#sponsorship h1 {
+    color: rgb(249, 167, 43);
+    text-align: center;
+    margin-bottom: 6%;
+    filter: drop-shadow(0 7px 10px #000);
+    font-weight: 800;
 }
