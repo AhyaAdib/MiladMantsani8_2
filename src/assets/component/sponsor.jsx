@@ -8,13 +8,23 @@ export default function Sponsor()
 {
     const sponsors = [
         {
-            name: 'Aparture',
-            logo: '/assets/sponsorLogo/Aparture.jpg',
+            name: 'Neutron',
+            logo: '/assets/sponsorLogo/neutron.png',
             website: '#',
         },
         {
-            name: 'Byu',
-            logo: '/assets/sponsorLogo/byu.png',
+            name: 'Wahyu Barokah',
+            logo: '/assets/sponsorLogo/wahyubarokah.png',
+            website: '#',
+        },
+        {
+            name: 'Joyo Rosan',
+            logo: '/assets/sponsorLogo/joyorosan.PNG',
+            website: '#',
+        },
+        {
+            name: 'Serba Indah',
+            logo: '/assets/sponsorLogo/serbaindah.png',
             website: '#',
         },
         {
@@ -23,8 +33,18 @@ export default function Sponsor()
             website: '#',
         },
         {
-            name: 'Joyo Rosan',
-            logo: '/assets/sponsorLogo/joyorosan.PNG',
+            name: 'Telkomsel',
+            logo: '/assets/sponsorLogo/telkomsel.png',
+            website: '#',
+        },
+        {
+            name: 'Byu',
+            logo: '/assets/sponsorLogo/byu.png',
+            website: '#',
+        },
+        {
+            name: 'Aparture',
+            logo: '/assets/sponsorLogo/Aparture.jpg',
             website: '#',
         },
         {
@@ -38,11 +58,6 @@ export default function Sponsor()
             website: '#',
         },
         {
-            name: 'Neutron',
-            logo: '/assets/sponsorLogo/neutron.png',
-            website: '#',
-        },
-        {
             name: 'Salsabila Medika',
             logo: '/assets/sponsorLogo/salsabila.jpg',
             website: '#',
@@ -50,21 +65,6 @@ export default function Sponsor()
         {
             name: 'Salsabila Medika',
             logo: '/assets/sponsorLogo/salsabila1.jpg',
-            website: '#',
-        },
-        {
-            name: 'Serba Indah',
-            logo: '/assets/sponsorLogo/serbaindah.png',
-            website: '#',
-        },
-        {
-            name: 'Telkomsel',
-            logo: '/assets/sponsorLogo/telkomsel.png',
-            website: '#',
-        },
-        {
-            name: 'Wahyu Barokah',
-            logo: '/assets/sponsorLogo/wahyubarokah.png',
             website: '#',
         },
     ]

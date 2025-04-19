@@ -1374,7 +1374,7 @@ details[open] div {
     color: #000;
 }
 #sponsorship {
-    background: linear-gradient(#754b85, #945aab);
+    background: linear-gradient(#754b85, b#945aab);
     position: relative;
     padding-left: 15%;
     padding-right: 15%;
